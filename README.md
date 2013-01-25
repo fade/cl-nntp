@@ -2,7 +2,7 @@ Common Lisp NNTP client library
 ===============================
 
 This code was originally authored by Dimitre Liotev <dl@liotev.com> and released 
-under the terms of the General Puglic License. I acquired it by downloading the 
+under the terms of the General Public License. I acquired it by downloading the 
 tarball to be found here: http://znain.net/cl-nntp/ .. I've placed it on github
 with an eye to extension, but also for greater convenience.
 
