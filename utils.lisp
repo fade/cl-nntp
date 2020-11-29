@@ -43,7 +43,7 @@
    #+CLISP (ext:getenv name)
    #+ECL (si:getenv name)
    #+SBCL (sb-unix::posix-getenv name)
-   #+LISPWORKS (lispwrks:environment-variable name)
+   #+LISPWORKS (lispworks:environment-variable name)
    #+CCL (getenv name)
    default))
 
