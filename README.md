@@ -21,13 +21,15 @@ Note that the name of the ASDF system is *``cl-nttp``*, but the lisp
 package is *``com.liotev.nntp``*, with *``cl-nntp``* and *``nntp``* specified
 as its nicknames.
 
+news.eternal-september.org is a free news server, but requires 
+[registration](https://www.eternal-september.org/RegisterNewsAccount.php)
 Here is an example of using some of the functions:
 
     ;; Connect to an nntp server
-    (cl-nntp:connect "nntp.aioe.org" 119)
+    (cl-nntp:connect "news.eternal-september.org" 119) 
 
     ;; Select a group
-    cl-nntp:group "comp.lang.lisp")
+    (cl-nntp:group "comp.lang.lisp")
 
     ;; Fetch the current article
     (cl-nntp:article)
