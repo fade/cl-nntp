@@ -22,7 +22,7 @@ package is *``com.liotev.nntp``*, with *``cl-nntp``* and *``nntp``* specified
 as its nicknames.
 
 news.eternal-september.org is a free news server, but requires 
-[registration](https://www.eternal-september.org/RegisterNewsAccount.php)
+[registration](https://www.eternal-september.org/RegisterNewsAccount.php).
 Here is an example of using some of the functions:
 
     ;; Connect to an nntp server
